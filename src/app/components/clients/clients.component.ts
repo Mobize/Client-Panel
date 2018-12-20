@@ -22,10 +22,10 @@ export class ClientsComponent implements OnInit {
   }
 
   // fonction modifiée :https://github.com/rarice4/clientpanel/blob/master/src/app/components/clients/clients.component.ts
-  getTotalOwed(){
-    this.totalOwed = this.clients.reduce((total,client)=>{
+  getTotalOwed() {
+    this.totalOwed = this.clients.reduce((total, client) => {
       return total + parseFloat(client.balance.toString());
-    },0);
+    }, 0);
   }
 
 }

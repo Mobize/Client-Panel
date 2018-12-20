@@ -2,3 +2,8 @@
 a:not([href]):not([tabindex]){
     color: white !important;
 }
+
+.alert p {
+    margin: 0;
+    padding: 0;
+}
