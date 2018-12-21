@@ -1,9 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-a:not([href]):not([tabindex]){
-    color: white !important;
-}
 
 .alert p {
     margin: 0;
     padding: 0;
 }
+
+.logout {
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+
